@@ -1,0 +1,23 @@
+{
+  "name": "htmlbars-class-helper-transform",
+  "version": "0.0.0",
+  "description": "An htmlbars ast transform that passes each part of a class declaration to a specified helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianstarz/htmlbars-class-helper-transform.git"
+  },
+  "keywords": [
+    "htmlbars",
+    "htmlbars-ast-plugin"
+  ],
+  "author": "ianstarz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianstarz/htmlbars-class-helper-transform/issues"
+  },
+  "homepage": "https://github.com/ianstarz/htmlbars-class-helper-transform#readme"
+}
