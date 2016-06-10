@@ -1,7 +1,7 @@
 {
   "name": "htmlbars-class-helper-transform",
   "version": "0.0.0",
-  "description": "An htmlbars ast transform that passes each part of a class declaration to a specified helper",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/nodemon/bin/nodemon.js --exec 'npm run lint && npm test'",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianstarz/htmlbars-class-helper-transform.git"
+    "url": "git+https://github.com/ianstarz/simple-node-project-boilerplate.git"
   },
   "keywords": [
     "htmlbars",
@@ -19,9 +19,9 @@
   "author": "ianstarz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ianstarz/htmlbars-class-helper-transform/issues"
+    "url": "https://github.com/ianstarz/simple-node-project-boilerplate/issues"
   },
-  "homepage": "https://github.com/ianstarz/htmlbars-class-helper-transform#readme",
+  "homepage": "https://github.com/ianstarz/simple-node-project-boilerplate#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.11.1",
