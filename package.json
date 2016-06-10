@@ -4,8 +4,9 @@
   "description": "An htmlbars ast transform that passes each part of a class declaration to a specified helper",
   "main": "index.js",
   "scripts": {
-    "test": "node test",
-    "lint": "eslint **/*.js"
+    "start": "./node_modules/nodemon/bin/nodemon.js --exec 'npm run lint && npm test'",
+    "lint": "eslint **/*.js",
+    "test": "node ./tests"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.11.1",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2"
   }
 }

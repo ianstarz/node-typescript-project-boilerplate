@@ -4,7 +4,7 @@ var Mocha = require('mocha');
 
 var mocha = new Mocha();
 
-mocha.addFile('test/unit/sample');
+mocha.addFile('tests/unit/sample');
 
 mocha.run(function(failures) {
   process.on('exit', function() {
