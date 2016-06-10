@@ -10,7 +10,7 @@
     ],
     "eqeqeq": [
       "error",
-      "always"
+      "smart"
     ],
     "indent": [
       "error",
@@ -21,8 +21,7 @@
       "unix"
     ],
     "no-extra-semi": [
-      "error",
-      "never"
+      "error"
     ],
     "quotes": [
       "error",
