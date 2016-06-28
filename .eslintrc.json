@@ -20,6 +20,7 @@
       "error",
       "unix"
     ],
+    "no-console": 0,
     "no-extra-semi": [
       "error"
     ],

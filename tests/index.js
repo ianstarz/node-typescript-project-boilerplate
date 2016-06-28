@@ -6,7 +6,9 @@ var walkSync = require('walk-sync');
 var mocha = new Mocha();
 
 walkSync('.', { globs: ['tests/**/*.js'] }).forEach(function(file) {
-  mocha.addFile(file);
+  if (file !== 'tests/index.js') {
+    mocha.addFile(file);
+  }
 });
 
 mocha.run(function(failures) {
